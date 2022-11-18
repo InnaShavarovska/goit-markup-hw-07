@@ -854,12 +854,12 @@ textarea::placeholder{
     margin-right: auto;
 }   
 
-.checkbox{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .label-checkbox{
     display: flex;
@@ -881,12 +881,13 @@ textarea::placeholder{
     background-origin: border-box;
 }
 
-.label-checkbox{    
+.label-checkbox{
     line-height: 1.71;
     color: var(--text-color);
 }
 
 .label-checkbox a{
     margin-left: 5px;
-       color: var(--blue-color);
+    color: var(--blue-color);
 }
+
