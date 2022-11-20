@@ -64,35 +64,35 @@ h1, h2, h3, p, ul {
 
 /* Header */
 
-.header {
+.page-header {
     border-bottom: 1px solid #ECECEC;
 }
-.header-main{
+.page-header__wrapper{
     display: flex; 
 }
 
 /* Лого */
 
-.nav-logo,
-.footer-logo,
-.logo-text{
+.logo{
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 text-decoration: none;
 }
-.nav-logo{
+.page-header__logo{
     color: #000000; 
     padding-top: 24px;
     padding-bottom: 25px;
     margin-right: 93px;
 }
-.footer-logo{
+.page-footer__logo{
+    display: inline-block;
+    margin-bottom: 20px;
     color: var(--white-color);
 }
 
-.logo-text{
+.logo--inverse{
     color:var(--blue-color);
 }
 
@@ -434,21 +434,17 @@ margin-top: 16px;
 
 
 /* Footer */
-.footer {
+.page-footer {
  padding-top: 60px;
  padding-bottom: 60px;
  background: #2F303A;  
 }
 
-.footer-flex{
+.page-footer__wrapper{
     display: flex;
     align-items: baseline;
 }
 
-.footer-logo{
-    display: inline-block;
-    margin-bottom: 20px;
-}
 
 .footer-list li+li {
   margin-top: 9px;
