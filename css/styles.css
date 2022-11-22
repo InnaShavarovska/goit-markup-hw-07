@@ -113,7 +113,7 @@ text-decoration: none;
     text-decoration: none;      
 }
 
-.site-nav__link {
+.page-header__site-nav{
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
